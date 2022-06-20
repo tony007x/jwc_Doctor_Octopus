@@ -1,0 +1,156 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    background-color: rgb(79, 37, 118);
+}
+.Navbar{
+    border-style: none  ;
+    border-color:rgb(237, 0, 0) ;
+    background-color: rgb(133, 110, 155);
+    padding: 20px;
+}
+.Navbar ul{
+    text-align: right;
+    padding: 0;
+    margin: 0;
+}
+.Navbar ol{
+    display: inline-block;
+    color: white;
+    margin: 10px;
+}
+/* UNder Navbar */
+.TopHead{
+    width: 100%;
+}
+.para-center{
+    text-align: center;
+    color: rgb(255, 255, 255);
+    padding-bottom: 20px;
+    display: block;
+}
+.para-center h1{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 50px;
+    display: block;
+}
+.para-center p{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 30px;
+    display: block;
+}
+.ButtonMain{
+    text-align: center;
+}
+.ButtonMain button{
+    background-color: rgb(255, 255, 255);
+    border: solid;
+    border-color: white;
+    color:blueviolet;
+    font-size: 70px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+/* info */
+.infomation{
+    padding: 20px;
+    display:  flex;   
+}
+.infomation .pic img{
+    width: 500px;
+    height: 500px;
+}
+.infomation .infotext h1{
+    font-size: 26px;
+    color: white;
+    padding-left: 50px;
+    text-align: center;
+    padding-bottom: 30px;
+}
+.infomation .infotext p{
+    color: white;
+    padding-left: 40px;
+    padding-right: 20px;
+}
+.infomation .infotext{
+    padding-top: 250px;
+    padding-right: 50px;
+    padding-left: 50px;
+}
+@media screen and(max-width: 768px) {
+    .infomation{
+        width: 80%;
+        display: block;
+        margin: auto;
+        padding-top: 100px;
+        
+   }
+}
+/* Review */
+.Reviewer h1{
+    text-align: center;
+    color: white;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 100%;
+    display: block;
+}
+.Review{
+    display: flex;
+    text-align: center;
+    width: auto;
+    justify-content: center;
+}
+.Review .team{
+    margin: 5px;
+    margin-top: 50px;
+    margin-bottom: 200px;
+    padding: 20px;
+    position: relative;
+}
+.Review .team .team-img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    top: -50px;
+    left:  50%;
+    transform: translate(-50%);
+    background-color: rgb(56, 5, 68);
+    margin-left: 55%;
+}
+.Review .team .team-img img{
+    width: 200px;
+    height: 200px;
+    padding: 10px;
+    border-radius: 50%;
+}
+.Review .team h3{
+    color: aliceblue;
+    padding-top: 30px;
+}
+.Review .team p{
+    color: aliceblue;
+}
+
+/* MAP */
+.MainMap{
+    display: flex; 
+}
+.MainMap .Map-Image{
+    padding-left: 400px;
+    padding-right: 50px;
+}
+.MainMap .Mapinfo h1{
+    color: aliceblue;
+    padding: 20px;
+}
+.MainMap .Mapinfo h3{
+    color: aliceblue;
+    
+}
